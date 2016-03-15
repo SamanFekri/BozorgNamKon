@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+#header-div{
+    margin: 0;
+    height: 80px;
+    background-color: black;
+}
+#main-div {
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 1%;
+    background-color: #c5c5c5;
+    height: 200px;
+}
+
+#view-div{
+    margin: 0;
+    margin-right: 1%;
+    background-color: aliceblue;
+    height: 200px;
+}
+
+#review-div{
+    margin: 0;
+    margin-right: 1%;
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+#footer-div{
+    margin: 0;
+    margin-right: 1%;
+    background-color: black;
+    height: 200px;
+}
