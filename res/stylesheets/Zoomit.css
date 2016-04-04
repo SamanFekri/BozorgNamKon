@@ -52,8 +52,8 @@ body {
     border-color: black;
     border: solid;
     border-width: 1px;
-    /*height: 32.4vh;*/
-    height: auto;
+    height: 32.4vh;
+    /*height: auto;*/
 }
 
 #main-sec {
@@ -72,7 +72,28 @@ body {
    /* border: solid;
     border-width: 1px;
     border-color: inherit;*/
+    position: relative;
+    z-index: 2;
 }
+.top-news-element img {
+    position: relative;
+    z-index: -1;
+
+}
+.top-news-element a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(180deg,rgba(19,25,31,0) 30%,rgba(19,25,31,1) 75%);
+    background-color: transparent;
+}
+.top-news-element a:hover{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     background: linear-gradient(180deg,rgba(19,25,31,0.25) 25%,rgba(19,25,31,1) 70%);
+     background-color: transparent;
+ }
 
 .top-news-element img{
     width: 100%;
@@ -145,26 +166,28 @@ body {
 .mini-ad-img{
     height: auto;
     margin-right: 0.2%;
+    height: 25vh;
 }
 
 .most-view-div{
 
    /* background-color: blue;*/
     width: 100%;
-    height: 200px;
+    height: 25vh;
     padding:0px;
     margin:0px;
     position:relative;
-    margin-bottom: 4.2vh;
-    border:0px solid #000;
+    margin-bottom: 1.5vh;
+    /*border:0px solid #000;*/
 }
 .most-view-div img{
 
     background-color: navajowhite;
     width: 100%;
+    height: 85%;
     padding:0px;
     margin:0px;
-    border:0px solid pink;
+    /*border:0px solid pink;*/
 }
 .most-view-div div{
 
@@ -182,7 +205,7 @@ body {
     text-align: right;
     word-wrap: break-word;
 
-    border:0px solid blue;
+    /*border:0px solid blue;*/
     /*padding-right: 6.4%;*/
     /*padding-top: 23%;*/
 }
