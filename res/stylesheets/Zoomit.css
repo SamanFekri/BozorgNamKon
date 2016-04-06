@@ -1,7 +1,7 @@
 /* adding some fonts */
 @font-face {
     font-family: IRANSans;
-    src: url("https://www.github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.ttf")  format('truetype');
+    src: url("../zoomit/IRANSansWeb_Medium.woff2") format('woff2');
 }
 /**/
 body {
@@ -224,12 +224,14 @@ body {
 .most-view-div div p{
     padding:0px;
     margin:0px;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
 }
 .most-view-div div h1{
     padding:0px;
     margin:0px;
-    font-size:12px;
+    font-size: 14px;
+    font-weight: 500;
 }
 #first-most-view {
     margin-bottom: 0;
@@ -272,6 +274,7 @@ body {
     float: right;
     margin-top: -5px;
 }
+/*****************************************************************/
 .category-title p{
     font-family: IRANSans,Tahoma;
     display: block;
@@ -280,6 +283,9 @@ body {
     font-weight: 400;
     color: #999;
     margin: 0;
+}
+.category-title p:hover{
+    color: #ba1414;
 }
 .category-title h1{
     font-family: IRANSans,Tahoma;
