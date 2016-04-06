@@ -1,3 +1,12 @@
+/* adding some fonts */
+@font-face {
+    font-family: IRANSans;
+    src: url("https://github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.eot");
+        url("https://github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.ttf");
+        url("https://github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.woff");
+        url("https://github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.woff2");
+}
+/**/
 body {
     margin: 0;
     background-color: white;
@@ -42,7 +51,7 @@ body {
     overflow: hidden;
     margin: 0 auto;
 }
-
+/*********************************************************/
 #ad-sidebar {
     width:23%;
     float:left;
@@ -51,7 +60,6 @@ body {
     /*margin-left: 8.5%;*/
     margin-right: 1%;
 }
-
 .ad-img{
     width: 100%;
     margin-bottom: 10px;
@@ -62,7 +70,7 @@ body {
     /*height: 32.4vh;*/
     /*height: auto;*/
 }
-
+/*********************************************************/
 #main-sec {
     width: 75.7%;
     float: right;
@@ -70,7 +78,7 @@ body {
     background-color: red;
     word-wrap: break-word;
 }
-
+/*********************************************************/
 .top-news-element {
     display: inline-block;
     float: right;
@@ -82,11 +90,7 @@ body {
     position: relative;
     z-index: 2;
 }
-.top-news-element img {
-    position: relative;
-    z-index: -1;
 
-}
 .top-news-element a{
     width: 100%;
     height: 100%;
@@ -101,7 +105,6 @@ body {
      background: linear-gradient(180deg,rgba(19,25,31,0.25) 25%,rgba(19,25,31,1) 70%);
      background-color: transparent;
  }
-
 .top-news-element img{
     width: 100%;
     height: 100%;
@@ -109,8 +112,9 @@ body {
     border: solid;
     border-color: #f0f0f0;
     border-width: 1px;
+    position: relative;
+    z-index: -1;
 }
-
 #top-news-div {
     /*height: 67.4vh;*/
     height: 511px;
@@ -126,7 +130,7 @@ body {
     float: left;
     margin-left: 0.7%;
 }
-
+/*********************************************************/
 .content-box {
     border: solid;
     border-color: #e2e2e2;
@@ -156,7 +160,7 @@ body {
     /*height: 200px;*/
     margin-bottom: -4px;
 }
-
+/*********************************************************/
 #main-page{
     margin-left: 0.7%;
 }
@@ -177,7 +181,7 @@ body {
     margin-bottom: 15px;
     /*height: 25vh;*/
 }
-
+/*********************************************************/
 .most-view-div{
 
    /* background-color: blue;*/
@@ -201,12 +205,10 @@ body {
 }
 .most-view-div div{
 
-    width: 100%;
-    height: 45%;
-    padding:0px;
+    /*width: 100%;*/
+    height: 30%;
+    padding:15px;
     margin:0px;
-    font-family: arial;
-    font-size: 20px;
     position: absolute;
     bottom:0px;
     left:0px;
@@ -270,21 +272,25 @@ body {
     float: right;
     margin-top: -5px;
 }
-#education-content li div p{
-    font-family: inherit;
-    display: inline-block;
+.category-title p{
+    font-family: IRANSans,Tahoma;
+    display: block;
     line-height: 22px;
     font-size: 13px;
     font-weight: 400;
     color: #999;
     margin: 0;
 }
-#education-content li div h1{
-    font-family: inherit;
-    display: inline-block;
+.category-title h1{
+    font-family: IRANSans,Tahoma;
+    display: block;
     margin: 0;
     line-height: 22px;
     font-size: 13px;
     font-weight: 400;
     color: #1b1b1b;
  }
+.category-title h1:hover{
+    color: #ba1414;
+}
+
