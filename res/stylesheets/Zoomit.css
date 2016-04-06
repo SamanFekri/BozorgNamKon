@@ -233,3 +233,58 @@ body {
     margin-bottom: 0;
 }
 
+#education-content {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+#education-content li{
+    padding: 15px;
+    border-bottom: solid 1px #e2e2e2;
+    display: inline-block;
+    font-family: IRANSans,Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+}
+#education-content li:last-child{
+    border: none;
+}
+#education-content li img{
+    display: inline-block;
+    margin: 0;
+    /*width: 79px;*/
+    width: 24%;
+    /*height: 79px;*/
+    float: right;
+    padding: 0 0 0 15px;
+}
+#education-content li div{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /*width: 174px;*/
+    width:70%;
+    word-wrap: break-word;
+    float: right;
+    margin-top: -5px;
+}
+#education-content li div p{
+    font-family: inherit;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999;
+    margin: 0;
+}
+#education-content li div h1{
+    font-family: inherit;
+    display: inline-block;
+    margin: 0;
+    line-height: 22px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #1b1b1b;
+ }
