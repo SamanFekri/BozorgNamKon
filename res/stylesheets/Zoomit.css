@@ -1,10 +1,7 @@
 /* adding some fonts */
 @font-face {
     font-family: IRANSans;
-    src: url("https://github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.eot");
-        url("https://github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.ttf");
-        url("https://github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.woff");
-        url("https://github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.woff2");
+    src: url("https://www.github.com/1995parham/BozorgOn/tree/master/fonts/IRANSans-web.ttf")  format('truetype');
 }
 /**/
 body {
@@ -151,7 +148,10 @@ body {
 }
 .header-content p{
     text-align: right;
-    padding-right: 5%;
+    padding: 13px 13px 13px;
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 20px;
 }
 .content-box-content{
     display: inline-block;
