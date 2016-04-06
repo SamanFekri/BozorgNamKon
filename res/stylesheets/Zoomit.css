@@ -121,11 +121,48 @@ body {
 #tne1 {
     height: 66.4%;
 }
-
 #tne5 {
     height: 66.6%;
     float: left;
     margin-left: 0.7%;
+}
+.top-news-element div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    text-shadow:  1px 1px 3px #000;
+    font-family: IRANSans,Tahoma;
+    font-size: 15px;
+}
+.top-news-element p{
+    display: block;
+    margin: 0;
+    line-height: 22px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #FF9B37;
+    text-shadow: 0 0 3px #000;
+}
+.top-news-element h1{
+    display: block;
+    margin: 0;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+#tne1 h1{
+    font-size: 22px;
+    line-height: 40px;
+}
+#tne5 h1{
+    font-size: 22px;
+    line-height: 40px;
 }
 /*********************************************************/
 .content-box {
