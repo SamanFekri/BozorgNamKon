@@ -185,8 +185,10 @@ body {
 }
 .header-content p{
     text-align: right;
-    padding: 13px 13px 13px;
+    padding: 8px 13px 13px;
+    font-weight: 500;
     margin: 0;
+    line-height: 14px;
     font-family: Tahoma;
     font-size: 20px;
 }
@@ -336,4 +338,20 @@ body {
 .category-title h1:hover{
     color: #ba1414;
 }
+/*****************************************************************/
+#master-suggestion {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
 
+#master-suggestion li{
+    width: 29%;
+    display: inline-block;
+    text-align: right;
+    margin: 15px;
+    float: right;
+}
+#master-suggestion li img{
+    width: 100%;
+}
