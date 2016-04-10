@@ -346,12 +346,16 @@ body {
 }
 
 #master-suggestion li{
-    width: 29%;
+    width: 31%;
     display: inline-block;
     text-align: right;
-    margin: 15px;
+    margin: 15px 7.5px 15px 7.5px;
     float: right;
 }
 #master-suggestion li img{
     width: 100%;
+}
+#master-suggestion li h1{
+    font-size: 14px;
+    font-weight: 500;
 }

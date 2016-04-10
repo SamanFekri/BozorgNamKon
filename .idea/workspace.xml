@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a67e91f-a8bf-4eb6-ad0e-b2165259225f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/Zoomit.html" afterPath="$PROJECT_DIR$/res/Zoomit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/stylesheets/Zoomit.css" afterPath="$PROJECT_DIR$/res/stylesheets/Zoomit.css" />
     </list>
     <ignored path="BozorgNamKon.iws" />
@@ -35,8 +34,8 @@
       <file leaf-file-name="Zoomit.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/stylesheets/Zoomit.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="189" column="14" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
+            <state relative-caret-position="592">
+              <caret line="349" column="26" selection-start-line="349" selection-start-column="26" selection-end-line="349" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -281,7 +280,7 @@
       <workItem from="1459920651153" duration="7205000" />
       <workItem from="1459956710513" duration="7656000" />
       <workItem from="1460213773760" duration="1135000" />
-      <workItem from="1460307575826" duration="2049000" />
+      <workItem from="1460307575826" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="some simple div added">
       <created>1458045151192</created>
@@ -374,11 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460214966232</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="some bug fixes&#10;master suggestion part completed">
+      <created>1460309667259</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1460309667259</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25017000" />
+    <option name="totallyTimeSpent" value="25415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -426,7 +432,8 @@
     <MESSAGE value="iransans font added" />
     <MESSAGE value="top news text area added and fixed" />
     <MESSAGE value="master suggestion added" />
-    <option name="LAST_COMMIT_MESSAGE" value="master suggestion added" />
+    <MESSAGE value="some bug fixes&#10;master suggestion part completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="some bug fixes&#10;master suggestion part completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -820,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/stylesheets/Zoomit.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="189" column="14" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
+        <state relative-caret-position="592">
+          <caret line="349" column="26" selection-start-line="349" selection-start-column="26" selection-end-line="349" selection-end-column="26" />
           <folding />
         </state>
       </provider>
