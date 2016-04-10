@@ -147,6 +147,7 @@ body {
     font-weight: 500;
     color: #FF9B37;
     text-shadow: 0 0 3px #000;
+    direction: rtl;
 }
 .top-news-element h1{
     display: block;
@@ -155,6 +156,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     color: #fff;
+    direction: rtl;
 }
 #tne1 h1{
     font-size: 22px;
@@ -191,6 +193,7 @@ body {
     line-height: 14px;
     font-family: Tahoma;
     font-size: 20px;
+    direction: rtl;
 }
 .content-box-content{
     display: inline-block;
@@ -322,9 +325,11 @@ body {
     font-weight: 400;
     color: #999;
     margin: 0;
+    direction: rtl;
 }
 .category-title p:hover{
     color: #ba1414;
+    cursor: pointer;
 }
 .category-title h1{
     font-family: IRANSans,Tahoma;
@@ -334,6 +339,8 @@ body {
     font-size: 13px;
     font-weight: 400;
     color: #1b1b1b;
+    direction: rtl;
+    cursor: pointer;
  }
 .category-title h1:hover{
     color: #ba1414;
@@ -358,4 +365,63 @@ body {
 #master-suggestion li h1{
     font-size: 14px;
     font-weight: 500;
+}
+/*****************************************************************/
+#new-news {
+    margin: 0;
+    overflow: hidden;
+    padding: 35px 20px 0px 20px;
+}
+#new-news li{
+    width: 100%;
+    display: block;
+    text-align: right;
+    margin: 0px 0px 20px 0px;
+    border-bottom: solid 1px #dddddd;
+    overflow: hidden;
+}
+.new-news-img-div {
+    width: 33%;
+    height: 100%;
+    float: right;
+}
+.new-news-img-div img{
+    width: 100%;
+    height: 152px;
+}
+.new-news-content-div {
+    position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
+    float: left;
+    width: 62.7%;
+}
+.new-news-content-div p{
+    display: inline-block;
+    float: right;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.new-news-content-div p span:hover{
+    color: #999;
+    cursor: text;
+}
+.new-news-content-div h1{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+}
+.new-news-content-div h3{
+    font-family: IRANSans,Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    direction: rtl;
+    text-align: justify;
+    color: #666;
+    margin-bottom: 30px;
+}
+.new-news-content-div a{
+    color: #C91021;
+    cursor: pointer;
 }
