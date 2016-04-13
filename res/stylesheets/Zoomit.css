@@ -25,8 +25,8 @@ body {
 #view-div{
     margin: 0;
     /*margin-right: 1%;*/
-    background-color: aliceblue;
-    height: 200px;
+    background-color: #222222;
+    overflow: hidden;
 }
 
 #review-div{
@@ -456,4 +456,63 @@ body {
     margin: -20px auto 20px auto;
     vertical-align: middle;
     display: block;
+}
+/*************************************************************/
+#view-div-main-section {
+    background-color: inherit;
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSans,Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+}
+#view-div-main-section p{
+    font-size: 24px;
+    color: white;
+    margin: 25px 0px 20px 0px;
+}
+#view-div-main-section ul{
+    margin-bottom: 20px;
+    padding: 0;
+    position: relative;
+}
+#view-div-main-section ul li{
+    display: inline-block;
+    width: 32%;
+    position: relative;
+    margin-left: 2%;
+}
+#view-div-main-section ul li img{
+     width: 100%;
+}
+#view-div-main-section ul li div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-shadow: 0 0 3px #000;
+    color: white;
+    padding: 15px;
+}
+#view-div-main-section ul li:last-child{
+    float: left;
+    margin-left: 0;
+}
+#view-div-main-section ul li:first-child{
+    float: right;
+}
+#view-div-main-section ul li a{
+    padding: 30px 10px 30px 10px;
+    font-size: 25px;
+    position: absolute;
+    background-color: white;
+    top: 32%;
+    float: right;
+    opacity: 0.5;
+}
+#view-div-main-section ul li a:hover{
+    opacity: 0.9;
+}
+#view-div-main-section ul li:last-child a{
+    left: 0;
+    right: auto;
 }
