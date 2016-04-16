@@ -532,26 +532,27 @@ body {
     font-weight: 400;
     border: solid 1px #e2e2e2;
     overflow: hidden;
-    padding: 20px;
+    padding-bottom:30px;
 }
 #review-div-main-section p{
     font-size: 24px;
     color: #333;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 1.5% 15px 0px;
 }
 #review-div-main-section > div{
-    width: 49.25%;
+    width: 47.75%;
     display: inline-block;
     position: relative;
     height: 450px;
 }
 #review-div-main-section > div:nth-of-type(1){
     float: right;
-    background-color:  blue;
+    margin-right: 1.5%;
 }
 #review-div-main-section > div:nth-of-type(2){
     float: left;
     z-index: 2;
+    margin-left: 1.5%;
 }
 #review-div-main-section a{
     width: 100%;
@@ -569,6 +570,7 @@ body {
     position: absolute;
     z-index: -1;
 }
+/****************/
 .review-t1{
     word-wrap: break-word;
 }
@@ -588,8 +590,30 @@ body {
     font-weight: 500;
     line-height: 25px;
 }
+/****************/
 #review-div-main-section > div:nth-of-type(2) h1{
     font-size: 30px;
     line-height: 45px;
     margin: 0px 0px 10px 0px;
+}
+#review-row1{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+}
+#review-row1 > li{
+    display: inline-block;
+    width: 47%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+#review-row1 > li:nth-of-type(1){
+    float: right;
+}
+
+#review-row1 > li:nth-of-type(2){
+    float: left;
 }
