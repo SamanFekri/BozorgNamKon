@@ -12,6 +12,8 @@ body {
     margin: 0;
     height: 80px;
     background-color: #1b1b1b;
+    /******************************/
+
 }
 #main-div {
     margin: 0;
@@ -660,6 +662,7 @@ body {
 }
 #review-row2 > li > h1:hover{
     color: #ba1414;
+    cursor: pointer;
 }
 /*************************************************************/
 #footer-div{
@@ -710,4 +713,16 @@ body {
 }
 .footer-footer-div > ul > li a:hover{
     color: #ba1414;
+    cursor: pointer;
+}
+/*************************************************************/
+#point-to-up {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0.7;
+}
+#point-to-up:hover{
+    opacity: 1;
+
 }
