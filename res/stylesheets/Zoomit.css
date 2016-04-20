@@ -715,11 +715,21 @@ body {
     cursor: pointer;
 }
 /*************************************************************/
+#footer-main-section > section{
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 500;
+    direction: rtl;
+    font-family: IRANSans,Tahoma;
+    overflow: hidden;
+}
+/*************************************************************/
 #point-to-up {
     position: fixed;
     bottom: 15px;
     right: 15px;
     opacity: 0.7;
+    z-index: 3;
 }
 #point-to-up:hover{
     opacity: 1;
