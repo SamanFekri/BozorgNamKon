@@ -7,13 +7,12 @@
 body {
     margin: 0;
     background-color: white;
+    min-width: 1500px;
 }
 #header-div{
     margin: 0;
     height: 80px;
     background-color: #1b1b1b;
-    /******************************/
-
 }
 #main-div {
     margin: 0;
