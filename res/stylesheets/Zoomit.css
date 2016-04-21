@@ -13,6 +13,7 @@ body {
     margin: 0;
     height: 80px;
     background-color: #1b1b1b;
+    direction: rtl;
 }
 #main-div {
     margin: 0;
@@ -914,4 +915,63 @@ body {
 }
 #point-to-up:hover{
     opacity: 1;
+}
+/*************************************************************/
+#header-div > nav {
+    height: 100%;
+    font-family: IRANSans,Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    direction: rtl;
+    overflow: hidden;
+    color: white;
+}
+#header-div > nav > img{
+    width: 19%;
+    height: 100%;
+    float: right;
+    display: inline-block;
+}
+#header-div > nav > section{
+    width: 71%;
+    height: 100%;
+    overflow: hidden;
+    float: right;
+}
+#top-header-div{
+    width: 100%;
+    height: 37%;
+    background-color: #1b1b1b;
+}
+#bottom-header-div{
+    width: 100%;
+    height: 63%;
+    background-color: #333;
+}
+
+#header-div > nav > div {
+    width: 10%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+#header-div > nav > div > img{
+    width: 100%;
+    height: 100%;
+}
+#header-div > nav > div > p{
+    font-family: YekanNumbers,Tahoma;
+    font-size: 30px;
+    line-height: 28px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    margin: 0;
+}
+#header-div > nav > div > a{
+    position: absolute;
+    top: 40px;
+    left: 50px;
 }
