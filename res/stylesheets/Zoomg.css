@@ -85,6 +85,10 @@ body{
     color: white;
     height: 60px;
 }
+.complex-header > nav{
+    overflow: hidden;
+    height: 550px;
+}
 .complex-header > nav > ul{
     display: inline-block;
     margin: 0;
@@ -199,6 +203,117 @@ body{
     top: 25px;
     left: 15%;
     bottom: 0;
+}
+/***************************************************/
+.menu{
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 1168px;
+    z-index: 6;
+    background-color: #202022;
+}
+.menu > aside{
+    width: 15%;
+    float: right;
+    height: 100%;
+    padding: 20px 0 30px 0;
+}
+.menu > aside > ul{
+    display: inline-block;
+    width: 100%;
+    padding: 0 5% 0 5%;
+    margin: 0;
+}
+.menu > aside > ul > li{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.menu > aside > ul > li h2 {
+     display: inline-block;
+     width: 100%;
+     font-family: yekan, sans-serif;
+     font-weight: 700;
+     font-size: 13px;
+     line-height: 15px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.menu > aside > ul > li h1 {
+    display: inline-block;
+    width: 100%;
+    font-family: yekan, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.menu > section{
+    overflow: hidden;
+    width: 84.5%;
+    float: left;
+    background-color: white;
+    position: relative;
+    bottom: 0;
+}
+.menu > section > ul{
+    display: inline-block;
+    width: 100%;
+    padding: 0%;
+    direction: rtl;
+}
+.menu > section > ul > li{
+    display: inline-block;
+    margin: 0;
+    padding: 20px 1.5% 20px 1.5%;
+    float: right;
+    width: 16.9%;
+    text-align: center;
+    word-wrap: break-word;
+}
+.menu > section > ul > li img{
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+.menu > section > ul > li h1{
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #3f3f3f;
+    font-family: yekan, 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.menu > section h2{
+    display: inline-block;
+    font-family: yekan, 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 1.5%;
+    margin: 0;
+}
+.m2:hover + .menu-2{
+    display: initial;
+}
+.menu-2:hover {
+    display: initial;
+}
+.menu-2 h2{
+    color: #f26547;
+}
+.menu-2 > section{
+    height: 380px;
 }
 /*main div background*******************************/
 #cover-main-layer{
