@@ -933,20 +933,57 @@ body {
     display: inline-block;
 }
 #header-div > nav > section{
-    width: 71%;
+     width: 71%;
+     height: 100%;
+     overflow: hidden;
+     float: right;
+}
+#header-div > nav > section a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#header-div > nav > section ul{
     height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    float: right;
+}
+#header-div > nav > section ul li{
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 15px;
 }
 #top-header-div{
     width: 100%;
     height: 37%;
     background-color: #1b1b1b;
+    padding-right: 0.5%;
+}
+#top-header-div a:hover{
+    color: #c91021;
+}
+#top-header-div ul{
+    color: #aaa;
+}
+#top-header-div ul a:hover{
+    color: #ba1414;
+}
+#top-header-div > a{
+    float: left;
+    margin-left: 1%;
+}
+#top-header-div > img{
+    float: left;
+    margin-top: 5px;
 }
 #bottom-header-div{
     width: 100%;
     height: 63%;
     background-color: #333;
+    padding-right: 0.5%;
+
 }
 
 #header-div > nav > div {
