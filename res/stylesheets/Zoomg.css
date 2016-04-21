@@ -75,6 +75,131 @@ body{
 .simple-header-div:nth-of-type(3){
     padding-top: 0;
 }
+/* main ********************************************/
+/* complex header **********************************/
+.complex-header{
+    width: 100%;
+    background-color: #282829;
+    border-top: 1px solid #46464a;
+    z-index: 5;
+    color: white;
+    height: 60px;
+}
+.complex-header > nav > ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    /*background-color: yellow;*/
+    position: relative;
+    width: 85%;
+}
+.complex-header > nav > ul > li{
+    display: inline-block;
+    height:100%;
+    margin: 0;
+    /*background-color: red;*/
+    text-align: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    float: right;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.complex-header > nav > ul > li:hover{
+    background-color: #343437;
+}
+
+.complex-header > nav > ul > li:first-child{
+    line-height: 15.5px;
+}
+.complex-header > nav > ul > li >img{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0;
+}
+.complex-header > nav > ul > li:first-child >img{
+    width: 11px;
+    height: 11px;
+}
+.complex-header > nav > ul > li >p{
+    width: 100%;
+    display: inline-block;
+    font-size: 10px;
+    margin: 0;
+    font-weight: 300;
+}
+.complex-header > nav > ul > li >h1{
+    width: 100%;
+    display: block;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+}
+.complex-header > nav > ul > li:first-child >h1{
+    position: relative;
+    bottom: 0;
+    padding-top: 10px;
+}
+.complex-header > nav > ul > li:nth-of-type(2):hover{
+    border-top: 5px solid #f26547;
+    height: 91%;
+}
+.complex-header > nav > ul > li:nth-of-type(3):hover{
+    border-top: 5px solid #00c8f8;
+    height: 91%;
+}
+.complex-header > nav > ul > li:nth-of-type(4):hover{
+    border-top: 5px solid #7822cf;
+    height: 91%;
+}
+.complex-header > nav > ul > li:nth-of-type(5):hover{
+    border-top: 5px solid #0fb700;
+    height: 91%;
+}
+.complex-header > nav > ul > li:nth-of-type(6):hover{
+    border-top: 5px solid #ffc33c;
+    height: 91%;
+}
+.complex-header > nav > ul > li:nth-of-type(7):hover{
+    border-top: 5px solid #dd3333;
+    height: 91%;
+}
+.complex-header > nav > ul > li:nth-of-type(8):hover{
+    border-top: 5px solid #46c9c5;
+    height: 91%;
+}
+.complex-header > nav > ul > li:nth-of-type(9):hover{
+    border-top: 5px solid #444447;
+    height: 91%;
+}
+
+.complex-header > nav > ul > li:nth-of-type(9){
+    /*background-color: #4195fc;*/
+    padding: 0;
+    width: 10%;
+}
+.complex-header > nav > ul > li:nth-of-type(9) >h1{
+    width: 70%;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    bottom: 0;
+}
+.complex-header > nav > ul > li:nth-of-type(9) >img{
+    width: 20%;
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 15%;
+    bottom: 0;
+}
 /*main div background*******************************/
 #cover-main-layer{
     background-image: linear-gradient(to bottom, rgba(210, 210, 216, 0) 30%, rgba(210, 210, 216, 1) 100%);
