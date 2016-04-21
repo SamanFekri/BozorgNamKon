@@ -723,7 +723,6 @@ body {
     font-family: IRANSans,Tahoma;
     overflow: hidden;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 .footer-div-list {
     width: 24%;
@@ -855,6 +854,55 @@ body {
     top: 0;
     font-weight: 200;
     border-radius: 5px 0 0 5px;
+}
+/*************************************************************/
+#footer-main-section > footer {
+    border-top: 1px solid #383838;
+    padding-bottom: 50px;
+}
+.footer-vary-div{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    float: right;
+    padding: 40px 0 40px 0;
+    direction: rtl;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.footer-vary-div > p{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    direction: rtl;
+    font-family: IRANSans,Tahoma;
+}
+.footer-vary-div > p >span{
+    color: #ba1414;
+}
+.footer-vary-div > h1{
+    width: 100%;
+    direction: rtl;
+    font-family: IRANSans,Tahoma;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 18px;
+    color: white;
+}
+.footer-vary-div > ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.footer-vary-div > ul > li{
+    display: inline-block;
+    margin: 0 2% 0 2%;
+    padding: 0;
+}
+.footer-vary-div > ul > li > img{
+    width: 100%;
 }
 /*************************************************************/
 #point-to-up {
