@@ -900,7 +900,7 @@ body{
 #opinion-div{
     display: inline-block;
     width: 100%;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
 }
 #opinion-ul {
     display: inline-block;
@@ -957,5 +957,13 @@ body{
 #force-login-p > span:hover{
     color: #ba1414;
     cursor: pointer;
+}
+#opinion-div > footer h1{
+    display: inline-block;
+    margin-right: 1%;
+}
+#opinion-div > footer img{
+    display: inline-block;
+    margin-top: 10px;
 }
 /*******************************************************/
