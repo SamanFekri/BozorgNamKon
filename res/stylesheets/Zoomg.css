@@ -32,6 +32,7 @@ body{
     background-color: black;
     overflow: hidden;
     z-index: 5;
+    position: relative;
 }
 #div-main{
     width: 100%;
@@ -82,12 +83,16 @@ body{
     background-color: #282829;
     border-top: 1px solid #46464a;
     z-index: 5;
+    position: relative;
     color: white;
     height: 60px;
 }
 .complex-header > nav{
     overflow: hidden;
-    height: 550px;
+}
+.complex-header > nav:hover{
+    overflow: hidden;
+    height: 500px;
 }
 .complex-header > nav > ul{
     display: inline-block;
@@ -207,7 +212,7 @@ body{
 /***************************************************/
 .menu{
     overflow: hidden;
-    display: none;
+    visibility: hidden;
     position: absolute;
     top: 60px;
     right: 0;
@@ -234,12 +239,12 @@ body{
     margin: 0;
 }
 .menu > aside > ul > li h2 {
-     display: inline-block;
-     width: 100%;
-     font-family: yekan, sans-serif;
-     font-weight: 700;
-     font-size: 13px;
-     line-height: 15px;
+    display: inline-block;
+    width: 100%;
+    font-family: yekan, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
     margin-top: 2.5px;
     margin-bottom: 2.5px;
 }
@@ -304,10 +309,10 @@ body{
     margin: 0;
 }
 .m2:hover + .menu-2{
-    display: initial;
+    visibility: initial;
 }
 .menu-2:hover {
-    display: initial;
+    visibility: initial;
 }
 .menu-2 h2{
     color: #f26547;
@@ -317,10 +322,10 @@ body{
 }
 /****/
 .m3:hover + .menu-3{
-    display: initial;
+    visibility: initial;
 }
 .menu-3:hover {
-    display: initial;
+    visibility: initial;
 }
 .menu-3 h2{
     color: #00c8f8;
@@ -330,10 +335,10 @@ body{
 }
 /****/
 .m4:hover + .menu-4{
-    display: initial;
+    visibility: initial;
 }
 .menu-4:hover {
-    display: initial;
+    visibility: initial;
 }
 .menu-4 h2{
     color: #7822cf;
@@ -343,10 +348,10 @@ body{
 }
 /****/
 .m5:hover + .menu-5{
-    display: initial;
+    visibility: initial;
 }
 .menu-5:hover {
-    display: initial;
+    visibility: initial;
 }
 .menu-5 h2{
     color: #0fb700;
@@ -356,10 +361,10 @@ body{
 }
 /****/
 .m6:hover + .menu-6{
-    display: initial;
+    visibility: initial;
 }
 .menu-6:hover {
-    display: initial;
+    visibility: initial;
 }
 .menu-6 h2{
     color: #ffc33c;
@@ -369,10 +374,10 @@ body{
 }
 /****/
 .m7:hover + .menu-7{
-    display: initial;
+    visibility: initial;
 }
 .menu-7:hover {
-    display: initial;
+    visibility: initial;
 }
 .menu-7 h2{
     color: #dd3333;
@@ -382,10 +387,10 @@ body{
 }
 /****/
 .m8:hover + .menu-8{
-    display: initial;
+    visibility: initial;
 }
 .menu-8:hover {
-    display: initial;
+    visibility: initial;
 }
 .menu-8 h2{
     color: #46c9c5;
@@ -399,6 +404,34 @@ body{
     float: left;
     margin: 15px 0 0 0;
     padding: 0;
+}
+/*******/
+#logo-in-fix-header{
+    float: right;
+}
+#fixed-header-ul > li{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+#fixed-header-ul > li:nth-of-type(1){
+    line-height: 15.5px;
+}
+#fixed-header-ul > li:nth-of-type(1) >img{
+    width: 11px;
+    height: 11px;
+}
+#fixed-header-ul > li:nth-of-type(1) >h1{
+    position: relative;
+    bottom: 0;
+    padding-top: 10px;
+}
+#fixed-header{
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
 }
 /*main div background*******************************/
 #cover-main-layer{
