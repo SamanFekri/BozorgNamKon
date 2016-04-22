@@ -315,6 +315,91 @@ body{
 .menu-2 > section{
     height: 380px;
 }
+/****/
+.m3:hover + .menu-3{
+    display: initial;
+}
+.menu-3:hover {
+    display: initial;
+}
+.menu-3 h2{
+    color: #00c8f8;
+}
+.menu-3 > section{
+    height: 415px;
+}
+/****/
+.m4:hover + .menu-4{
+    display: initial;
+}
+.menu-4:hover {
+    display: initial;
+}
+.menu-4 h2{
+    color: #7822cf;
+}
+.menu-4 > section{
+    height: 380px;
+}
+/****/
+.m5:hover + .menu-5{
+    display: initial;
+}
+.menu-5:hover {
+    display: initial;
+}
+.menu-5 h2{
+    color: #0fb700;
+}
+.menu-5 > section{
+    height: 380px;
+}
+/****/
+.m6:hover + .menu-6{
+    display: initial;
+}
+.menu-6:hover {
+    display: initial;
+}
+.menu-6 h2{
+    color: #ffc33c;
+}
+.menu-6 > section{
+    height: 380px;
+}
+/****/
+.m7:hover + .menu-7{
+    display: initial;
+}
+.menu-7:hover {
+    display: initial;
+}
+.menu-7 h2{
+    color: #dd3333;
+}
+.menu-7 > section{
+    height: 380px;
+}
+/****/
+.m8:hover + .menu-8{
+    display: initial;
+}
+.menu-8:hover {
+    display: initial;
+}
+.menu-8 h2{
+    color: #46c9c5;
+}
+.menu-8 > section{
+    height: 380px;
+}
+/****/
+.end-of-header-icon{
+    display: inline-block;
+    float: left;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
 /*main div background*******************************/
 #cover-main-layer{
     background-image: linear-gradient(to bottom, rgba(210, 210, 216, 0) 30%, rgba(210, 210, 216, 1) 100%);
