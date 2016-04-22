@@ -805,3 +805,28 @@ body{
     display: block;
     padding-right: 2%;
 }
+/***************************************************/
+#from-zoomit{
+    margin: 0 0 50px 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+#from-zoomit > li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    word-wrap: break-word;
+}
+#from-zoomit > li > h1{
+    font-family: yekan,'Roboto Slab', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.428571429;
+}
+#from-zoomit > li > h1:hover{
+    color: #FF2654;
+}
