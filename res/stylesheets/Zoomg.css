@@ -54,6 +54,7 @@ body{
     width: 100%;
     overflow: hidden;
     background-color: #f3f3f3;
+    padding: 10px 0;
 }
 /* header div **************************************/
 .simple-header-div{
@@ -1028,4 +1029,10 @@ body{
 }
 .font14px{
     font-size: 14px;
+}
+.font12px{
+    font-size: 12px;
+}
+.half-width{
+    width: 50%;
 }
