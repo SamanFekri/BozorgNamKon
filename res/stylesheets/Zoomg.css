@@ -967,3 +967,65 @@ body{
     margin-top: 10px;
 }
 /*******************************************************/
+.footer-foot-part{
+    width: 24.5%;
+    display: inline-block;
+    float: right;
+    color: white;
+    margin-top: 20px;
+}
+.footer-foot-part > header{
+    width: 100%;
+    overflow : hidden;
+}
+.footer-foot-part > ul{
+    margin: 20px 0 40px 0;
+    padding: 0;
+    list-style-type: none;
+}
+.footer-foot-part > ul > li{
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    width: 100%;
+    overflow: hidden;
+}
+.footer-foot-part > ul > li :hover{
+    color: #ff2654;
+    cursor: pointer;
+}
+.footer-foot-part > ul > li > a{
+    width: 15%;
+    float: right;
+    min-height: 30px;
+    position: relative;
+    color: #494949;
+    font-family: Dosis, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    min-width: 30px;
+}
+.footer-foot-part > ul > li p{
+    width: 80%;
+    line-height: 25px;
+    float: right;
+}
+.minline{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.mfloat-right{
+    float: right;
+}
+.mfloat-left{
+    float: left;
+    width: 40%;
+}
+.footer-clock{
+    margin-top: 8px;
+}
+.font14px{
+    font-size: 14px;
+}
