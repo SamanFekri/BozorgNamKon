@@ -28,8 +28,8 @@
       <file leaf-file-name="Zoomg.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/stylesheets/Zoomg.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="867" column="16" selection-start-line="867" selection-start-column="16" selection-end-line="867" selection-end-column="16" />
+            <state relative-caret-position="724">
+              <caret line="960" column="57" selection-start-line="960" selection-start-column="57" selection-end-line="960" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="Zoomg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/Zoomg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="1074" column="37" selection-start-line="1074" selection-start-column="37" selection-end-line="1074" selection-end-column="37" />
+            <state relative-caret-position="190">
+              <caret line="1147" column="45" selection-start-line="1147" selection-start-column="45" selection-end-line="1147" selection-end-column="45" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -87,9 +87,12 @@
                 <element signature="n#center#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#1;n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#2;n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#0;n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#1;n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#2;n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -383,7 +386,7 @@
       <workItem from="1461214408695" duration="20121000" />
       <workItem from="1461234881344" duration="24073000" />
       <workItem from="1461292920436" duration="6453000" />
-      <workItem from="1461301133968" duration="21367000" />
+      <workItem from="1461301133968" duration="22990000" />
     </task>
     <task id="LOCAL-00001" summary="some simple div added">
       <created>1458045151192</created>
@@ -721,11 +724,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461320352089</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="suggestion finished">
+      <created>1461322884206</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1461322884206</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139851000" />
+    <option name="totallyTimeSpent" value="141474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -762,7 +772,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="view part completed" />
     <MESSAGE value="review part started" />
     <MESSAGE value="review part improved" />
     <MESSAGE value="review part completed" />
@@ -787,7 +796,8 @@
     <MESSAGE value="bug fixed" />
     <MESSAGE value="side bar added&#10;circular progress bar with css added" />
     <MESSAGE value="main side bar finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="main side bar finished" />
+    <MESSAGE value="suggestion finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="suggestion finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1108,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/Zoomg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="1074" column="37" selection-start-line="1074" selection-start-column="37" selection-end-line="1074" selection-end-column="37" />
+        <state relative-caret-position="190">
+          <caret line="1147" column="45" selection-start-line="1147" selection-start-column="45" selection-end-line="1147" selection-end-column="45" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1157,9 +1167,12 @@
             <element signature="n#center#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#2;n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1188,8 +1201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/stylesheets/Zoomg.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="867" column="16" selection-start-line="867" selection-start-column="16" selection-end-line="867" selection-end-column="16" />
+        <state relative-caret-position="724">
+          <caret line="960" column="57" selection-start-line="960" selection-start-column="57" selection-end-line="960" selection-end-column="57" />
           <folding />
         </state>
       </provider>

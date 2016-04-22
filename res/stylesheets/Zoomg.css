@@ -896,3 +896,66 @@ body{
     font-family: yekan,Asap, sans-serif;
     line-height: 24px;
 }
+/* opinion div ***************************************/
+#opinion-div{
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+}
+#opinion-ul {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 40px 0;
+    padding: 0;
+    border-bottom: 1px solid #d4d4db;
+}
+#opinion-ul > li {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#opinion-ul > li > img{
+    width: 10%;
+    display: inline-block;
+    margin: 25px 0;
+    float: right;
+}
+#opinion-ul > li > div {
+    display: inline-block;
+    width: 88%;
+    margin: 25px 0;
+    float: left;
+}
+#opinion-ul > li > div > h1 {
+    line-height: 28px;
+    margin: 0 0 12px 2%;
+    font-size: 28px;
+    font-family: yekan, 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    display: inline-block;
+}
+#opinion-ul > li > div > h2 {
+    font-size: 13px;
+    color: #5B4B5B;
+    line-height: 28px;
+    margin: 10px 20px 0 0;
+}
+#opinion-ul > li > div > h3 {
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #333;
+}
+#opinion-ul > li > div > h3:hover {
+    color: #ba1414;
+    cursor: pointer;
+}
+#force-login-p{
+    margin: 0 0 50px 0;
+}
+#force-login-p > span:hover{
+    color: #ba1414;
+    cursor: pointer;
+}
+/*******************************************************/
