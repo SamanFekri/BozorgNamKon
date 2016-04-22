@@ -28,8 +28,8 @@
       <file leaf-file-name="Zoomg.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/stylesheets/Zoomg.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="483" column="1" selection-start-line="483" selection-start-column="1" selection-end-line="483" selection-end-column="1" />
+            <state relative-caret-position="762">
+              <caret line="484" column="0" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -355,7 +355,7 @@
       <workItem from="1461214408695" duration="20121000" />
       <workItem from="1461234881344" duration="24073000" />
       <workItem from="1461292920436" duration="6453000" />
-      <workItem from="1461301133968" duration="1103000" />
+      <workItem from="1461301133968" duration="1328000" />
     </task>
     <task id="LOCAL-00001" summary="some simple div added">
       <created>1458045151192</created>
@@ -658,11 +658,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461299739125</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="header main added">
+      <created>1461302468901</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1461302468901</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119587000" />
+    <option name="totallyTimeSpent" value="119812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -699,7 +706,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some bug fixes&#10;master suggestion part completed" />
     <MESSAGE value="master suggestion part enhanced" />
     <MESSAGE value="some bug fixes&#10;new news part added" />
     <MESSAGE value="some bug fixes&#10;new news part completed&#10;main section completed" />
@@ -724,7 +730,8 @@
     <MESSAGE value="complex improved" />
     <MESSAGE value="first phase of complex header completed" />
     <MESSAGE value="complex header finished hoooraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:D:D:D:D:D" />
-    <option name="LAST_COMMIT_MESSAGE" value="complex header finished hoooraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:D:D:D:D:D" />
+    <MESSAGE value="header main added" />
+    <option name="LAST_COMMIT_MESSAGE" value="header main added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1096,8 +1103,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/stylesheets/Zoomg.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="483" column="1" selection-start-line="483" selection-start-column="1" selection-end-line="483" selection-end-column="1" />
+        <state relative-caret-position="762">
+          <caret line="484" column="0" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
           <folding />
         </state>
       </provider>
