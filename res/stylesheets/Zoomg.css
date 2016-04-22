@@ -597,6 +597,11 @@ body{
     overflow: hidden;
     position: relative;
 }
+#last-view-ul > li > div:hover{
+    background-color: #0fb700;
+    opacity: 0.7;
+    cursor: pointer;
+}
 #last-view-ul > li > img{
     width: 100%;
 }
@@ -739,6 +744,10 @@ body{
     font-weight: 700;
     font-size: 18px;
 }
+#cinema-ul > li > section > h1:hover{
+    color: #7822cf;
+    cursor: pointer;
+}
 .date-authour{
     display: inline-block;
     font-size: 10px;
@@ -794,6 +803,10 @@ body{
     display: inline-block;
     float: right;
 }
+#all-part-ul > li > p:hover{
+    color: #f26547;
+    cursor: pointer;
+}
 #spef-left-title-partition{
     width: 40%;
     border: 1px solid #d4d4db;
@@ -833,6 +846,7 @@ body{
 }
 #from-zoomit > li > h1:hover{
     color: #FF2654;
+    cursor: pointer;
 }
 /* suggestion div ***************************************/
 #suggestion-div{
@@ -887,6 +901,10 @@ body{
     font-family: yekan, 'Roboto Condensed', sans-serif;
     font-weight: 100;
     display: inline-block;
+}
+#suggestion-ul > li > div > h1:hover {
+    color: #0fb700;
+    cursor: pointer;
 }
 #suggestion-ul > li > div > p {
     width: 100%;
