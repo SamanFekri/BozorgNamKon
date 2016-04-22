@@ -472,7 +472,7 @@ body{
     text-transform: uppercase;
     color: #FFF;
     text-shadow: 1px 2px 1px rgba(0,0,0,.8);
-    font-family: yekan,:'Roboto Slab', sans-serif;
+    font-family: yekan,'Roboto Slab', sans-serif;
     font-weight: 700;
     font-size: 32px;
 }
